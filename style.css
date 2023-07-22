@@ -48,10 +48,12 @@ header nav ul li:active {
 /* ===== Section 1 ===== */
 
 .sec1 {
-    height: 100vh;
+    height: 140vh;
     background-color: var(--bg-color);
     display: flex;
 }
+
+/* ===== Section 1 Left Side ===== */
 
 .sec1-left {
     display: flex;
@@ -112,3 +114,20 @@ header nav ul li:active {
 .sec1-left button:active {
     transform: scale(0.95);
 }
+
+.appointment p {
+    font-size: 28.021px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.841px;
+}
+
+.appointment-box {
+    width: 640px;
+    height: 208.607px;
+    border-radius: 13px;
+    background: #CFD7DD;
+}
+
+/* Shu yergacha qildim Svet o'chib qoldi */
