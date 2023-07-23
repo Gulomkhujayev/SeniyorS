@@ -125,9 +125,66 @@ header nav ul li:active {
 
 .appointment-box {
     width: 640px;
-    height: 208.607px;
+    height: 208px;
     border-radius: 13px;
     background: #CFD7DD;
 }
 
-/* Shu yergacha qildim Svet o'chib qoldi */
+.up-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.up-box>div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.up-box>div span {
+    padding: 10px;
+}
+
+.up-box>div span p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.up-box>div span strong {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.bottom-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bottom-box button {
+    font-size: 18.299px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.023%;
+    padding: 11px 26px;
+}
+
+.bottom-box p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124.023%;
+    text-align: right;
+    padding: 0px;
+}
